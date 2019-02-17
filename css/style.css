@@ -1,3 +1,43 @@
 *  {
     color: red;
 }
+
+/* selektor łączony */
+
+div.connected p {
+    color: green;
+}
+
+/* before after */
+div.connected p::before {
+    content: '/* ';
+    color: blue;
+}
+
+div.connected p::after {
+    content: ' */';
+    color: blueviolet;
+}
+
+/* pseudo klasy */
+.hover a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.hover a:hover {
+    color: red;
+}
+
+form input:focus {
+    border: 2px solid green;
+    outline: 0;
+}
+
+ul li:first-child {
+    color: violet;
+}
+
+ul li:last-child {
+    color: firebrick;
+}
