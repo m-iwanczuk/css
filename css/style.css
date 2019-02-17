@@ -170,3 +170,16 @@ input[title$="ni"] {
     font-size: 0; /* WAŻNE! Usuwa odstępy między elementami wynikającymi z białych znakow. Należy ustawić font-size dzici! */
 }
 
+
+/* floating */
+
+.float img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
